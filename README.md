@@ -47,3 +47,8 @@ Just fed two images into the trained models. The output is the probability. The 
 
 For example, I display 5 comparisons as follows:
 ![alt text](https://github.com/ducanhnguyen/siamese_network/blob/main/model/mnist/v1/sample.png)
+
+# Interesting Links
+https://www.kaggle.com/martinpiotte/whale-recognition-model-with-score-0-78563#Siamese-Neural-Network-architecture
+
+
