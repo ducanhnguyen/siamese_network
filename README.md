@@ -14,6 +14,8 @@ I also generate a test set in the same way.
 
 In total, the training set has 100k triples. The test set has 50k triples. The training set and test set are balanced.
 
+The source code of this step is provided in dataset_generation.py. Set the path of TRAINING_SET, TEST_SET correctly. The path of the training set and the test set are represented by MYTRAINING, MYTEST, respectively.
+
 + Step 2: Train on 70k triples. Evaluate the remaining 30k triples. There are 40 epochs. Of course, the number of epochs could be larger. However, because I am a lazy person, I chose this epoch based on my intuition.
 
 + Step 3: Choose the model achieving the highest accuracy on the validation set.
