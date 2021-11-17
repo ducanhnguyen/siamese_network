@@ -43,5 +43,5 @@ The accuracy of the models could be better. However, I would run more epochs in 
 ### How to use the trained models?
 Just fed two images into the trained models. The output is the probability. The higher probability, the more similarity between the two images.
 
-For example:
+For example, I display 5 comparisons as follows:
 ![alt text](https://github.com/ducanhnguyen/siamese_network/blob/main/model/mnist/v1/sample.png)
