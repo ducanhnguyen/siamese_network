@@ -1,0 +1,114 @@
+/Users/ducanhnguyen/PycharmProjects/SiameseNetworks/env_cw/bin/python /Users/ducanhnguyen/PycharmProjects/SiameseNetworks/main2.py
+2021-11-17 16:52:01.667139: I tensorflow/core/platform/cpu_feature_guard.cc:151] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+Reading ./dataset/digit-recognizer/mytraining.csv
+Epoch 1/40
+69/69 [==============================] - ETA: 0s - loss: 0.2083 - accuracy: 0.66552021-11-17 16:53:00.055014: W tensorflow/python/util/util.cc:368] Sets are not currently considered sequences, but this may change in the future, so consider avoiding using them.
+WARNING:absl:Function `_wrapped_model` contains input name(s) ImageA_Input, ImageB_Input with unsupported characters which will be renamed to imagea_input, imageb_input in the SavedModel.
+69/69 [==============================] - 28s 370ms/step - loss: 0.2083 - accuracy: 0.6655 - val_loss: 0.1462 - val_accuracy: 0.7896
+Epoch 2/40
+69/69 [==============================] - ETA: 0s - loss: 0.1137 - accuracy: 0.8424WARNING:absl:Function `_wrapped_model` contains input name(s) ImageA_Input, ImageB_Input with unsupported characters which will be renamed to imagea_input, imageb_input in the SavedModel.
+69/69 [==============================] - 23s 330ms/step - loss: 0.1137 - accuracy: 0.8424 - val_loss: 0.0915 - val_accuracy: 0.8773
+Epoch 3/40
+69/69 [==============================] - ETA: 0s - loss: 0.0754 - accuracy: 0.9012WARNING:absl:Function `_wrapped_model` contains input name(s) ImageA_Input, ImageB_Input with unsupported characters which will be renamed to imagea_input, imageb_input in the SavedModel.
+69/69 [==============================] - 24s 343ms/step - loss: 0.0754 - accuracy: 0.9012 - val_loss: 0.0676 - val_accuracy: 0.9131
+Epoch 4/40
+69/69 [==============================] - 20s 292ms/step - loss: 0.0609 - accuracy: 0.9216 - val_loss: 0.0629 - val_accuracy: 0.9199
+WARNING:absl:Function `_wrapped_model` contains input name(s) ImageA_Input, ImageB_Input with unsupported characters which will be renamed to imagea_input, imageb_input in the SavedModel.
+Epoch 5/40
+69/69 [==============================] - ETA: 0s - loss: 0.0530 - accuracy: 0.9335WARNING:absl:Function `_wrapped_model` contains input name(s) ImageA_Input, ImageB_Input with unsupported characters which will be renamed to imagea_input, imageb_input in the SavedModel.
+69/69 [==============================] - 21s 302ms/step - loss: 0.0530 - accuracy: 0.9335 - val_loss: 0.0562 - val_accuracy: 0.9282
+Epoch 6/40
+69/69 [==============================] - ETA: 0s - loss: 0.0470 - accuracy: 0.9408WARNING:absl:Function `_wrapped_model` contains input name(s) ImageA_Input, ImageB_Input with unsupported characters which will be renamed to imagea_input, imageb_input in the SavedModel.
+69/69 [==============================] - 23s 339ms/step - loss: 0.0470 - accuracy: 0.9408 - val_loss: 0.0525 - val_accuracy: 0.9335
+Epoch 7/40
+69/69 [==============================] - ETA: 0s - loss: 0.0416 - accuracy: 0.9473WARNING:absl:Function `_wrapped_model` contains input name(s) ImageA_Input, ImageB_Input with unsupported characters which will be renamed to imagea_input, imageb_input in the SavedModel.
+69/69 [==============================] - 19s 276ms/step - loss: 0.0416 - accuracy: 0.9473 - val_loss: 0.0438 - val_accuracy: 0.9437
+Epoch 8/40
+69/69 [==============================] - ETA: 0s - loss: 0.0349 - accuracy: 0.9572WARNING:absl:Function `_wrapped_model` contains input name(s) ImageA_Input, ImageB_Input with unsupported characters which will be renamed to imagea_input, imageb_input in the SavedModel.
+69/69 [==============================] - 19s 275ms/step - loss: 0.0349 - accuracy: 0.9572 - val_loss: 0.0361 - val_accuracy: 0.9546
+Epoch 9/40
+69/69 [==============================] - ETA: 0s - loss: 0.0275 - accuracy: 0.9666WARNING:absl:Function `_wrapped_model` contains input name(s) ImageA_Input, ImageB_Input with unsupported characters which will be renamed to imagea_input, imageb_input in the SavedModel.
+69/69 [==============================] - 19s 277ms/step - loss: 0.0275 - accuracy: 0.9666 - val_loss: 0.0314 - val_accuracy: 0.9606
+Epoch 10/40
+69/69 [==============================] - ETA: 0s - loss: 0.0228 - accuracy: 0.9725WARNING:absl:Function `_wrapped_model` contains input name(s) ImageA_Input, ImageB_Input with unsupported characters which will be renamed to imagea_input, imageb_input in the SavedModel.
+69/69 [==============================] - 19s 280ms/step - loss: 0.0228 - accuracy: 0.9725 - val_loss: 0.0282 - val_accuracy: 0.9646
+Epoch 11/40
+69/69 [==============================] - ETA: 0s - loss: 0.0194 - accuracy: 0.9767WARNING:absl:Function `_wrapped_model` contains input name(s) ImageA_Input, ImageB_Input with unsupported characters which will be renamed to imagea_input, imageb_input in the SavedModel.
+69/69 [==============================] - 21s 295ms/step - loss: 0.0194 - accuracy: 0.9767 - val_loss: 0.0260 - val_accuracy: 0.9673
+Epoch 12/40
+69/69 [==============================] - ETA: 0s - loss: 0.0166 - accuracy: 0.9806WARNING:absl:Function `_wrapped_model` contains input name(s) ImageA_Input, ImageB_Input with unsupported characters which will be renamed to imagea_input, imageb_input in the SavedModel.
+69/69 [==============================] - 20s 296ms/step - loss: 0.0166 - accuracy: 0.9806 - val_loss: 0.0251 - val_accuracy: 0.9684
+Epoch 13/40
+69/69 [==============================] - ETA: 0s - loss: 0.0146 - accuracy: 0.9832WARNING:absl:Function `_wrapped_model` contains input name(s) ImageA_Input, ImageB_Input with unsupported characters which will be renamed to imagea_input, imageb_input in the SavedModel.
+69/69 [==============================] - 22s 311ms/step - loss: 0.0146 - accuracy: 0.9832 - val_loss: 0.0241 - val_accuracy: 0.9695
+Epoch 14/40
+69/69 [==============================] - ETA: 0s - loss: 0.0133 - accuracy: 0.9850WARNING:absl:Function `_wrapped_model` contains input name(s) ImageA_Input, ImageB_Input with unsupported characters which will be renamed to imagea_input, imageb_input in the SavedModel.
+69/69 [==============================] - 22s 314ms/step - loss: 0.0133 - accuracy: 0.9850 - val_loss: 0.0237 - val_accuracy: 0.9710
+Epoch 15/40
+69/69 [==============================] - ETA: 0s - loss: 0.0122 - accuracy: 0.9861WARNING:absl:Function `_wrapped_model` contains input name(s) ImageA_Input, ImageB_Input with unsupported characters which will be renamed to imagea_input, imageb_input in the SavedModel.
+69/69 [==============================] - 24s 355ms/step - loss: 0.0122 - accuracy: 0.9861 - val_loss: 0.0229 - val_accuracy: 0.9711
+Epoch 16/40
+69/69 [==============================] - ETA: 0s - loss: 0.0114 - accuracy: 0.9872WARNING:absl:Function `_wrapped_model` contains input name(s) ImageA_Input, ImageB_Input with unsupported characters which will be renamed to imagea_input, imageb_input in the SavedModel.
+69/69 [==============================] - 25s 363ms/step - loss: 0.0114 - accuracy: 0.9872 - val_loss: 0.0226 - val_accuracy: 0.9714
+Epoch 17/40
+69/69 [==============================] - ETA: 0s - loss: 0.0099 - accuracy: 0.9891WARNING:absl:Function `_wrapped_model` contains input name(s) ImageA_Input, ImageB_Input with unsupported characters which will be renamed to imagea_input, imageb_input in the SavedModel.
+69/69 [==============================] - 21s 302ms/step - loss: 0.0099 - accuracy: 0.9891 - val_loss: 0.0208 - val_accuracy: 0.9745
+Epoch 18/40
+69/69 [==============================] - 19s 271ms/step - loss: 0.0085 - accuracy: 0.9910 - val_loss: 0.0212 - val_accuracy: 0.9737
+Epoch 19/40
+69/69 [==============================] - 18s 261ms/step - loss: 0.0080 - accuracy: 0.9916 - val_loss: 0.0207 - val_accuracy: 0.9743
+Epoch 20/40
+69/69 [==============================] - 18s 259ms/step - loss: 0.0071 - accuracy: 0.9925 - val_loss: 0.0212 - val_accuracy: 0.9744
+Epoch 21/40
+69/69 [==============================] - ETA: 0s - loss: 0.0071 - accuracy: 0.9921WARNING:absl:Function `_wrapped_model` contains input name(s) ImageA_Input, ImageB_Input with unsupported characters which will be renamed to imagea_input, imageb_input in the SavedModel.
+69/69 [==============================] - 19s 280ms/step - loss: 0.0071 - accuracy: 0.9921 - val_loss: 0.0209 - val_accuracy: 0.9748
+Epoch 22/40
+69/69 [==============================] - 21s 296ms/step - loss: 0.0062 - accuracy: 0.9934 - val_loss: 0.0205 - val_accuracy: 0.9742
+Epoch 23/40
+69/69 [==============================] - ETA: 0s - loss: 0.0068 - accuracy: 0.9926WARNING:absl:Function `_wrapped_model` contains input name(s) ImageA_Input, ImageB_Input with unsupported characters which will be renamed to imagea_input, imageb_input in the SavedModel.
+69/69 [==============================] - 21s 304ms/step - loss: 0.0068 - accuracy: 0.9926 - val_loss: 0.0195 - val_accuracy: 0.9757
+Epoch 24/40
+69/69 [==============================] - ETA: 0s - loss: 0.0059 - accuracy: 0.9938WARNING:absl:Function `_wrapped_model` contains input name(s) ImageA_Input, ImageB_Input with unsupported characters which will be renamed to imagea_input, imageb_input in the SavedModel.
+69/69 [==============================] - 19s 278ms/step - loss: 0.0059 - accuracy: 0.9938 - val_loss: 0.0189 - val_accuracy: 0.9766
+Epoch 25/40
+69/69 [==============================] - ETA: 0s - loss: 0.0050 - accuracy: 0.9949WARNING:absl:Function `_wrapped_model` contains input name(s) ImageA_Input, ImageB_Input with unsupported characters which will be renamed to imagea_input, imageb_input in the SavedModel.
+69/69 [==============================] - 22s 321ms/step - loss: 0.0050 - accuracy: 0.9949 - val_loss: 0.0188 - val_accuracy: 0.9771
+Epoch 26/40
+69/69 [==============================] - ETA: 0s - loss: 0.0054 - accuracy: 0.9941WARNING:absl:Function `_wrapped_model` contains input name(s) ImageA_Input, ImageB_Input with unsupported characters which will be renamed to imagea_input, imageb_input in the SavedModel.
+69/69 [==============================] - 19s 275ms/step - loss: 0.0054 - accuracy: 0.9941 - val_loss: 0.0186 - val_accuracy: 0.9772
+Epoch 27/40
+69/69 [==============================] - 18s 258ms/step - loss: 0.0052 - accuracy: 0.9945 - val_loss: 0.0191 - val_accuracy: 0.9770
+Epoch 28/40
+69/69 [==============================] - ETA: 0s - loss: 0.0047 - accuracy: 0.9949WARNING:absl:Function `_wrapped_model` contains input name(s) ImageA_Input, ImageB_Input with unsupported characters which will be renamed to imagea_input, imageb_input in the SavedModel.
+69/69 [==============================] - 19s 272ms/step - loss: 0.0047 - accuracy: 0.9949 - val_loss: 0.0183 - val_accuracy: 0.9778
+Epoch 29/40
+69/69 [==============================] - ETA: 0s - loss: 0.0044 - accuracy: 0.9952WARNING:absl:Function `_wrapped_model` contains input name(s) ImageA_Input, ImageB_Input with unsupported characters which will be renamed to imagea_input, imageb_input in the SavedModel.
+69/69 [==============================] - 19s 275ms/step - loss: 0.0044 - accuracy: 0.9952 - val_loss: 0.0176 - val_accuracy: 0.9783
+Epoch 30/40
+69/69 [==============================] - ETA: 0s - loss: 0.0037 - accuracy: 0.9962WARNING:absl:Function `_wrapped_model` contains input name(s) ImageA_Input, ImageB_Input with unsupported characters which will be renamed to imagea_input, imageb_input in the SavedModel.
+69/69 [==============================] - 19s 270ms/step - loss: 0.0037 - accuracy: 0.9962 - val_loss: 0.0178 - val_accuracy: 0.9788
+Epoch 31/40
+69/69 [==============================] - ETA: 0s - loss: 0.0037 - accuracy: 0.9962WARNING:absl:Function `_wrapped_model` contains input name(s) ImageA_Input, ImageB_Input with unsupported characters which will be renamed to imagea_input, imageb_input in the SavedModel.
+69/69 [==============================] - 19s 272ms/step - loss: 0.0037 - accuracy: 0.9962 - val_loss: 0.0175 - val_accuracy: 0.9792
+Epoch 32/40
+69/69 [==============================] - ETA: 0s - loss: 0.0032 - accuracy: 0.9968WARNING:absl:Function `_wrapped_model` contains input name(s) ImageA_Input, ImageB_Input with unsupported characters which will be renamed to imagea_input, imageb_input in the SavedModel.
+69/69 [==============================] - 19s 269ms/step - loss: 0.0032 - accuracy: 0.9968 - val_loss: 0.0173 - val_accuracy: 0.9794
+Epoch 33/40
+69/69 [==============================] - 18s 265ms/step - loss: 0.0033 - accuracy: 0.9968 - val_loss: 0.0184 - val_accuracy: 0.9772
+Epoch 34/40
+69/69 [==============================] - 18s 258ms/step - loss: 0.0036 - accuracy: 0.9962 - val_loss: 0.0185 - val_accuracy: 0.9782
+Epoch 35/40
+69/69 [==============================] - 20s 289ms/step - loss: 0.0035 - accuracy: 0.9963 - val_loss: 0.0180 - val_accuracy: 0.9783
+Epoch 36/40
+69/69 [==============================] - 18s 258ms/step - loss: 0.0035 - accuracy: 0.9964 - val_loss: 0.0174 - val_accuracy: 0.9792
+Epoch 37/40
+69/69 [==============================] - 18s 259ms/step - loss: 0.0030 - accuracy: 0.9969 - val_loss: 0.0172 - val_accuracy: 0.9790
+Epoch 38/40
+69/69 [==============================] - 18s 264ms/step - loss: 0.0029 - accuracy: 0.9969 - val_loss: 0.0177 - val_accuracy: 0.9789
+Epoch 39/40
+69/69 [==============================] - 18s 258ms/step - loss: 0.0034 - accuracy: 0.9961 - val_loss: 0.0174 - val_accuracy: 0.9793
+Epoch 40/40
+69/69 [==============================] - 18s 256ms/step - loss: 0.0029 - accuracy: 0.9971 - val_loss: 0.0176 - val_accuracy: 0.9788
+
+Process finished with exit code 0

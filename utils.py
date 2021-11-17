@@ -1,6 +1,7 @@
 import matplotlib.pyplot as plt
 import numpy as np
 
+
 def visualize_images(img1, img2, similarity):
     fig, m_axs = plt.subplots(2, img1.shape[0], figsize=(12, 6))
     for c_a, c_b, c_d, (ax1, ax2) in zip(img1, img2, similarity, m_axs.T):
@@ -29,23 +30,24 @@ def visualize_accuracy(history, path):
     plt.close()
 
 
-def gen_random_batch(in_groups, num_pairs=8):
+def gen_random_batch(in_groups, num_pairs, similarity):
     # Reference: https://www.kaggle.com/kmader/image-similarity-with-siamese-networks/notebook
     print('gen_random_batch')
     out_img_a, out_img_b, out_score = [], [], []
     all_groups = list(range(len(in_groups)))
-    for match_group in [True, False]:
-        group_idx = np.random.choice(all_groups, size=num_pairs)
-        out_img_a += [in_groups[c_idx][np.random.choice(range(in_groups[c_idx].shape[0]))] for c_idx in group_idx]
-        if match_group:
-            b_group_idx = group_idx
-            out_score += [1] * num_pairs
-        else:
-            # anything but the same group
-            non_group_idx = [np.random.choice([i for i in all_groups if i != c_idx]) for c_idx in group_idx]
-            b_group_idx = non_group_idx
-            out_score += [0] * num_pairs
 
-        out_img_b += [in_groups[c_idx][np.random.choice(range(in_groups[c_idx].shape[0]))] for c_idx in b_group_idx]
+    group_idx = np.random.choice(all_groups, size=num_pairs)
+    out_img_a += [in_groups[c_idx][np.random.choice(range(in_groups[c_idx].shape[0]))] for c_idx in group_idx]
+
+    if similarity == 1:
+        b_group_idx = group_idx
+        out_score += [1] * num_pairs
+    else:
+        # anything but the same group
+        non_group_idx = [np.random.choice([i for i in all_groups if i != c_idx]) for c_idx in group_idx]
+        b_group_idx = non_group_idx
+        out_score += [0] * num_pairs
+
+    out_img_b += [in_groups[c_idx][np.random.choice(range(in_groups[c_idx].shape[0]))] for c_idx in b_group_idx]
 
     return np.stack(out_img_a, 0), np.stack(out_img_b, 0), np.stack(out_score, 0)
