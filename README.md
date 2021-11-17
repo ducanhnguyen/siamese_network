@@ -7,6 +7,15 @@
 
 
 ## Experiment
+Training procedure:
++ Step 1: Generate training set from MNIST. This training set consists of triple. A triple is defined as <b>(image 1, image 2, its similarity)</b>. If image 1 and image 2 are similar (based on their labels), theirs similarity is assigned to 1. Otherwise, theirs similarity is assigned to 0.
+
+In total, there are 100k triples. Half of them are classifed as <b>similar</b>.
++ Step 2: Train on 70k triples. Evaluate on the remaining 30k triples.
+
++ Step 3: Choost the model achieving the highest accuracy on the validation set.
+
++ Step 4: Report the model on the whole training set and test set.
 
 ### MNIST 
 
