@@ -30,8 +30,7 @@ The accuracy of the models could be better. However, I would run more epochs in 
 | M2 (main2.py) | mse  | 0.99195|	0.9734 |  <a href="https://github.com/ducanhnguyen/siamese_network/tree/main/model/mnist/v2">link</a> |
 | M3 (main3.py)  | contrastive loss  | 0.99069 |	0.9751 |  <a href="https://github.com/ducanhnguyen/siamese_network/tree/main/model/mnist/v3">link</a> |
 
-### How to use the trained models?
-Just fed two images into the trained models. The output is the probability. The higher probability, the more similarity between the two images.
+
 
 ### Fashion-MNIST 
 
@@ -40,3 +39,6 @@ Just fed two images into the trained models. The output is the probability. The 
 | F1 (main1.py) | binary_crossentropy  | 0.93579 |	0.91416 |  <a href="https://github.com/ducanhnguyen/siamese_network/tree/main/model/fashion-mnist/v1">link</a> |
 | F2 (main2.py) | mse  | 0.93968	| 0.91858 | <a href="https://github.com/ducanhnguyen/siamese_network/tree/main/model/fashion-mnist/v2">link</a> |
 | F3 (main3.py)  | contrastive loss  | 0.94351 |	0.9107 | <a href="https://github.com/ducanhnguyen/siamese_network/tree/main/model/fashion-mnist/v3">link</a> |
+
+### How to use the trained models?
+Just fed two images into the trained models. The output is the probability. The higher probability, the more similarity between the two images.
