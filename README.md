@@ -24,6 +24,9 @@ The source code of this step is provided in dataset_generation.py. Set the paths
 
 The accuracy of the models could be better. I would run more epochs in the future.
 
+### Model
+I modified the original architecture of Siamese Network a little bit. The output vectors of the mirror parts are concatenated. Originally, these output vectors are compute L2 distance.
+
 ### MNIST 
 
 | Model  | Loss | Training set | Test set | Result 
