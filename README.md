@@ -66,4 +66,4 @@ For example, I display 5 comparisons as follows:
 # Interesting Links
 https://www.kaggle.com/martinpiotte/whale-recognition-model-with-score-0-78563#Siamese-Neural-Network-architecture
 
-
+http://slazebni.cs.illinois.edu/spring17/lec09_similarity.pdf
