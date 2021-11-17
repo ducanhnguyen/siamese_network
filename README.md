@@ -1,4 +1,4 @@
-# Hello siamese_network
+# Hello Siamese Network
 
 ## Siamese Network
 - Contains two or more identical subnetworks used to generate feature vectors for each input and compare them
@@ -30,6 +30,8 @@ The accuracy of the models could be better. However, I would run more epochs in 
 | M2 (main2.py) | mse  | 0.99195|	0.9734 |  <a href="https://github.com/ducanhnguyen/siamese_network/tree/main/model/mnist/v2">link</a> |
 | M3 (main3.py)  | contrastive loss  | 0.99069 |	0.9751 |  <a href="https://github.com/ducanhnguyen/siamese_network/tree/main/model/mnist/v3">link</a> |
 
+### How to use the trained models?
+Just fed two images into the trained models. The output is the probability. The higher probability, the more similarity between the two images.
 
 ### Fashion-MNIST 
 
