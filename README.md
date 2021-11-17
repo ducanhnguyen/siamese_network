@@ -20,7 +20,7 @@ In total, the training set has 100k triples. The test set has 50k triples. The t
 
 + Step 4: Compute the accuracy of the model on the whole training set and test set.
 
-The accuracy of the models could be better. However, I would run more epochs in the future.
+The accuracy of the models could be better. I would run more epochs in the future.
 
 ### MNIST 
 
