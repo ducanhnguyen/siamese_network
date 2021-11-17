@@ -4,6 +4,18 @@
 - Contains two or more identical subnetworks used to generate feature vectors for each input and compare them
 - Loss function: binary crossentropy (work but usually not effective), triplet function, contrastive function, mean square error, etc.
 - Application: duplicate detection, anomalies detection, face recognition, etc.
+- Original Siamese Network
+
+<img src="https://github.com/ducanhnguyen/siamese_network/blob/main/img/original_arch.png" width="600">
+
+
+- A modified Siamese Network
+
+The loss function is triplet.
+
+Notions: A: anchor image. B: positive image (the same class as A). C: negative image (different class from that of A)
+ 
+<img src="https://github.com/ducanhnguyen/siamese_network/blob/main/img/arch2.png" width="800">
 
 
 ## Experiment
